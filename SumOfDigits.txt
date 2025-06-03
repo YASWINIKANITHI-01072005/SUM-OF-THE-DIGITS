@@ -1,0 +1,17 @@
+ SumOfDigits
+public class SumOfDigits
+{
+static int sumofdigitsArray(long n)
+{
+int sum=0;
+while(n>0)
+int rem=(int) n%10;
+sum=sum+rem;
+n=n/10;
+}
+public static void main (String[] args)
+{
+int n=85858;
+System.out.println((n));
+}
+}
